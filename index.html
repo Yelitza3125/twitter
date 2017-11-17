@@ -17,20 +17,20 @@
         </ul>
     </header>
     <main>
-        <form action="">
+        <form action="" method="get">
             <div>
-                <label for="tweet"></label>
-                <input type="text" id="tweet" autofocus placeholder="¿Qué estás pensando?" required ='text' max-length = 140>
+                <textarea id = "input" rows="4" type="text"  autofocus placeholder="¿Qué estás pensando?" required ='text' max-length = '140' autocapitalize= 'sentences' resize = "vertical"></textarea> 
             </div>    
-            <button type="submit">TWEET</button>
+            <button id= "tweet">TWEET</button>
             <span>0</span>
         </form>
+        <section>
+            <h2>Tus tweets</h2>
+            <div id="container">         
+            </div>
+        </section>
     </main>
-    <section>
-        <div>
-
-        </div>
-    </section>
+    
     <script src="js/app.js"></script>
 </body>
 </html>

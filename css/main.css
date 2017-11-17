@@ -31,13 +31,13 @@ main {
     width: 100%;
     height:800px;
     margin-top: 50px;
-    background-image: url('../assets/images/vintage.jpg');
+   background-image: url('../assets/images/vintage.jpg');
     background-size: cover;
     overflow: auto;
 }
 
 form {
-    width: 40%;   
+    width: 50%;   
     padding-top: 40px;
     margin-top: 20px;
     margin-right: 60px;
@@ -53,8 +53,10 @@ form div {
     padding-bottom: 30px;
 }
 
-form input {   
+form textarea {   
     width: 100%;
+    outline: none;
+    border: none;
 }
 
 
@@ -83,5 +85,36 @@ form span {
 .button-enabled {
     background-color: #1da1f2;
     color: #fff;
+}
 
+section {
+    width: 90%;
+    height: 300px;
+}
+
+
+section h2 {
+    font-family: 'Roboto Slab', serif;
+    color: #68f8e2;
+    padding: 20px;
+}
+.container-text {
+    background-color: rgba(131, 204, 206, 0.3);
+    font-family: 'Roboto Slab', serif;
+    border: 1px solid rgba(131, 204, 206, 0.3);
+    margin-top: 10px;
+    width: 70%;
+    height: 150px;
+}
+
+.color-one {
+    color: #ec8d10;
+}
+
+.colorTwo {
+    color: #ec1710;
+}
+
+.text {
+    padding: 20px;
 }
