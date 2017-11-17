@@ -16,8 +16,16 @@ button.addEventListener('click', function saveText(event){
 
     textArea.value = '';
   }
+  });
+
+  textArea.addEventListener('keypress', function actived(event) {
+    if(textArea.value) {
+      button.disabled = false;
+      button.classList.add('button-enabled');
+    };
 
   });
+
 });
 
 
