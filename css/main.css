@@ -112,14 +112,17 @@ section h2 {
     height: 150px;
 }
 
-.color-one {
-    color: #ec8d10;
+.blue {
+    color: blue;
 }
 
-.colorTwo {
+.red {
     color: #ec1710;
 }
 
+.black {
+    color: black;
+}
 .text {
     padding: 20px;
 }

@@ -25,7 +25,7 @@ button.addEventListener('click', function saveText(event){
     if(textArea.value) {
       button.disabled = false;
       button.classList.add('button-enabled');
-    } else if(textArea.value.length > 140) {
+    } else if((textArea.value.length) > 140) {
       button.disabled = true;
     };
   });
@@ -33,7 +33,25 @@ button.addEventListener('click', function saveText(event){
   textArea.addEventListener('keyup', function contadorText(event) {
     contador.innerHTML = length;
     contador.innerHTML = (length - textArea.value.length);
+    //console.log(length);
   });
+
+  textArea.addEventListener('keyup', function changeColor(event) {
+    var number = length - textArea.value.length;
+    console.log(number);
+    console.log(typeof(number));
+   if( number > parseInt(130) && number < parseInt(141)) {
+      count.classList.add('blue');
+    } else if(number > parseInt(120) && number < parseInt(130)) {
+     count.classList.remove('orange');
+      count.classList.add('red');
+   } else if(number <= parseInt(120) && number > parseInt(0)) {
+      count.classList.add('black');
+   };
+  
+  });
+
+
 });
 
 
