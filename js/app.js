@@ -53,9 +53,8 @@ window.addEventListener('load', function(event) {
     var date = new Date();
     var strDate = date.getHours() + ':' + date.getMinutes(); 
     // console.log(f);
-    var horaContainer = document.createElement('div');
-    var horaContent = document.createElement('p');
-    horaContent.textContent = strDate;
+    date = new Date();
+    var strDate = date.getHours() + ':' + date.getMinutes();
     horaContainer.appendChild(horaContent);
     // console.log(horaContent);
     container.appendChild(horaContainer);
