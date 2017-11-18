@@ -106,10 +106,10 @@ section h2 {
 .container-text {
     background-color: rgba(131, 204, 206, 0.3);
     font-family: 'Roboto Slab', serif;
-    border: 1px solid rgba(131, 204, 206, 0.3);
+    border-bottom: 1px solid rgba(131, 204, 206, 0.3);
     margin-top: 10px;
     width: 70%;
-    height: 150px;
+    height: 300px; 
 }
 
 .blue {
@@ -124,5 +124,18 @@ section h2 {
     color: black;
 }
 .text {
+    
     padding: 20px;
+    color: #fff;
+}
+
+.time {
+    color: #fff;
+    overflow: auto;
+    border-bottom: 1px solid #fff;
+}
+
+.time-text {
+    float: right;
+    padding-right: 10px;
 }
