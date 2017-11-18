@@ -82,7 +82,7 @@ form button {
 }
 
 
-.button:disabled {
+.disabled {
     background-color: #8c8d8a;
     color: #66757f;
 }
