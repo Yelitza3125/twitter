@@ -28,7 +28,7 @@ window.addEventListener('load', function(event) {
     }; 
   });
 
-  textArea.addEventListener('keyup', function contadorText(event) {
+  textArea.addEventListener('keyup', function accountant(event) {
     count.innerHTML = maxLength;
     count.innerHTML = (maxLength - textArea.value.length);
     // console.log(length);
@@ -52,13 +52,14 @@ window.addEventListener('load', function(event) {
   button.addEventListener('click', function time(event) {
     var date = new Date();
     var strDate = date.getHours() + ':' + date.getMinutes(); 
-    // console.log(f);
-    date = new Date();
-    var strDate = date.getHours() + ':' + date.getMinutes();
-    horaContainer.appendChild(horaContent);
-    // console.log(horaContent);
-    container.appendChild(horaContainer);
-    horaContent.classList.add('time-text');
-    horaContainer.classList.add('time');
+    // console.log(date);
+    // console.log(strDate);
+    var timeContainer = document.createElement('div');
+    var timeContent = document.createElement('p');
+    timeContent.textContent = strDate;
+    timeContainer.appendChild(timeContent);
+    container.appendChild(timeContainer);
+    timeContent.classList.add('time-text');
+    timeContainer.classList.add('time'); 
   });
 });

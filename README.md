@@ -1,5 +1,8 @@
 # Proyecto Twitter
 
+![Twitter](assets/images/twitter.jpg "Twitter")
+
+
 ## Descripción:
 
 El siguiente repositorio contiene la realización del proyecto "Twitter", que consiste en la replicación de sus funcionalidades básicas, por medio de una estructura semántica de html, aplicación de estilo con css y el desarrollo de funcionalidades con Javascript.
@@ -47,7 +50,7 @@ El siguiente repositorio contiene la realización del proyecto "Twitter", que co
 27.	FIN FUNCION
 
 
-28.	FUNCION contadorText(event)
+28.	FUNCION accountantText(event)
 29.   Definir button.disabled = false;
 30.   Definir button.classList.add('button-enabled');
 31. FIN FUNCION
@@ -68,11 +71,17 @@ El siguiente repositorio contiene la realización del proyecto "Twitter", que co
 
 43. FUNCION time(event)
 44.   Definir date = new Date();
-45.   Definir var strDate = date.getHours() + ':' + date.getMinutes();
-46.   Definir date = new Date();
-47.   Definir strDate = date.getHours() + ':' + date.getMinutes();
-48.   horaContainer.appendChild(horaContent);
-49.   container.appendChild(horaContainer);
-50.   horaContent.classList.add('time-text');
-51.   horaContainer.classList.add('time');
-52. FIN FUNCION
+45.   Definir strDate = date.getHours() + ':' + date.getMinutes();
+46.   Definir timeContainer = document.createElement('div');
+47.   Definir timeContent = document.createElement('p');
+48.   timeContent.textContent = strDate;
+49.   timeContainer.appendChild(timeContent);
+50.   container.appendChild(timeContainer);
+51.   timeContent.classList.add('time-text');
+52.   timeContainer.classList.add('time'); 
+53. FIN FUNCION
+
+
+### Diagrama de flujo
+
+https://go.gliffy.com/go/share/sjn2i5j43yak3lifva48
