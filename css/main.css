@@ -46,7 +46,7 @@ form {
     
 }
 
-form div {
+form div.textos {
     margin-left: 50px;
     width: 80%;
     border-bottom: 1px solid gray;
@@ -57,6 +57,16 @@ form textarea {
     width: 100%;
     outline: none;
     border: none;
+}
+
+form div.contador {
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+form div.contador inpunt {
+    outline: none;
 }
 
 
@@ -71,11 +81,6 @@ form button {
     border: none;
 }
 
-form span {
-    font-family: 'Roboto Slab', serif;
-    margin-left: 130px;
-    font-size: 18px;
-}
 
 .button:disabled {
     background-color: #8c8d8a;

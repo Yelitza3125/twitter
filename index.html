@@ -18,12 +18,13 @@
     </header>
     <main>
         <form action="" method="get">
-            <div>
-                <textarea id = "input" rows="4" type="text"  autofocus placeholder="¿Qué estás pensando?" required ='text' max-length = '140' autocapitalize= 'sentences' resize = "vertical"></textarea> 
-            </div>    
-            <button id= "tweet" disabled>TWEET</button>
-            <span>0</span>
+            <div class="textos">
+                <textarea id = "input" rows="4" type="text"  autofocus placeholder="¿Qué estás pensando?" required ='text' maxlength = '140' autocapitalize= 'sentences' resize = "vertical"></textarea> 
+            </div>  
+            <button id= "tweet" disabled>TWEET</button>   
+            <span id = "count"></span>   
         </form>
+        
         <section>
             <h2>Tus tweets</h2>
             <div id="container">         
