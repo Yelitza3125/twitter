@@ -42,8 +42,7 @@ form {
     margin-top: 20px;
     margin-right: 60px;
     height: 300px;
-    background-color: #fff;
-    
+    background-color: #fff;    
 }
 
 form div.textos {
@@ -92,6 +91,12 @@ form button {
     color: #fff;
 }
 
+
+#count {
+    margin-left: 50px;
+    font-family: 'Roboto Slab', serif;
+}
+
 section {
     width: 90%;
     height: 300px;
@@ -103,12 +108,13 @@ section h2 {
     color: #68f8e2;
     padding: 20px;
 }
+
 .container-text {
     background-color: rgba(131, 204, 206, 0.3);
     font-family: 'Roboto Slab', serif;
     border-bottom: 1px solid rgba(131, 204, 206, 0.3);
     margin-top: 10px;
-    width: 70%;
+    width: 60%;
     height: 300px; 
 }
 
@@ -123,8 +129,8 @@ section h2 {
 .black {
     color: black;
 }
-.text {
-    
+
+.text {   
     padding: 20px;
     color: #fff;
 }
