@@ -84,4 +84,4 @@ El siguiente repositorio contiene la realización del proyecto "Twitter", que co
 
 ### Diagrama de flujo
 
-https://go.gliffy.com/go/share/sjn2i5j43yak3lifva48
+https://go.gliffy.com/go/share/image/sy2a8ndhu7apyt7pf9uv.png?utm_medium=live-embed&utm_source=custom
