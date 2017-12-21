@@ -82,8 +82,8 @@ form button {
 
 
 .disabled {
-    background-color: #8c8d8a;
-    color: #66757f;
+    background-color: #cecfcc;
+    color: #bebebe;
 }
 
 .button-enabled {
